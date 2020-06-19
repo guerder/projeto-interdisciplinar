@@ -21,7 +21,9 @@ A partir da raíz temos 3 sub-pastas, backend, frontend e util. Vamos acessar ca
 
 Na pasta **util** configure a url do MongoDB, se necessário, no arquivo db.js linha 4 que está na pasta config.
 
-Rode o comando **yarn** ou **npm install**. Só precisa fazer esse processo uma única vez.
+Rode o comando **yarn** ou **npm install**. 
+
+Agora rode a aplicação para popular o banco com o comando **node index.js**. Após receber a mensagem "CSV file successfully processed" pode parar a apicação. Só precisa fazer esse processo uma única vez.
 
 ## Inicializar o back-end
 
@@ -34,4 +36,6 @@ Rode o comando **yarn** ou **npm install**. Após a instalação das dependênci
 Rode o comando **yarn** ou **npm install**.
 
 Após a instalação das dependências rode o comando **yarn start** ou **npm start**.
+
+
 
