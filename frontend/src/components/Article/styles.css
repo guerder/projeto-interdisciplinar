@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: #141414;
+}
+
+.card-title {
+    min-height: 50px;
+}
+
+.card-body {
+    min-height: 200px;
+}
