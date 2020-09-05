@@ -1,4 +1,4 @@
-## Proposta do projeto
+# Proposta do projeto
 
 Após a realização do projeto de software, foi implementado uma pequena parte deste para desenvolver as competências técnicas da disciplina de Construção de software para internet.
 Foi utilizado a plataforma Netflix como estudo de caso, e o objetivo é implementar a exibição do catálogo da mesma.
@@ -15,27 +15,38 @@ A execução da aplicação requer 3 passos:
 - Inicializar o back-end;
 - Rodar a aplicação front-end.
 
-## Popular o banco de dados  
-
 A partir da raíz temos 3 sub-pastas, backend, frontend e util. Vamos acessar cada uma delas para configurar o projeto.
 
-Na pasta **util** configure a url do MongoDB, se necessário, no arquivo db.js linha 4 que está na pasta config.
+## Popular o banco de dados  
 
-Rode o comando **yarn** ou **npm install**. 
+Acesse a pasta `util`.
 
-Agora rode a aplicação para popular o banco com o comando **node index.js**. Após receber a mensagem "CSV file successfully processed" pode parar a apicação. Só precisa fazer esse processo uma única vez.
+Execute o comando `yarn`. 
+
+Crie o arquivo `.env` na raíz do projeto com o conteúdo abaixo com as devidas modificações:
+> MONGO_URL=<cole_aqui_sua_url>
+
+Agora execute a aplicação para popular o banco com o comando `yarn start`. Após receber a mensagem "CSV file successfully processed" pode parar a aplicação. Só precisa fazer esse processo uma única vez.
 
 ## Inicializar o back-end
 
-Na pasta **backend** configure a url do MongoDB, se necessário, no arquivo **.env** linha 3.
+Acesse a pasta `backend`.
 
-Rode o comando **yarn** ou **npm install**. Após a instalação das dependências rode o comando **yarn start** ou **npm start** e deixe o prompt aberto para manter o servidor ativo.
+Execute o comando `yarn`. 
+
+Crie o arquivo `.env` na raíz do projeto com o conteúdo abaixo com as devidas modificações:
+> APP_URL=<cole_aqui_a_url>
+> MONGO_URL=<cole_aqui_a_url>
+
+Execute o comando `yarn start` e deixe o prompt aberto para manter o servidor ativo.
 
 ## Rodar a aplicação front-end.
 
-Rode o comando **yarn** ou **npm install**.
+Acesse a pasta `frontend`.
 
-Após a instalação das dependências rode o comando **yarn start** ou **npm start**.
+Execute o comando `yarn`.
+
+Após a instalação das dependências execute o comando `yarn start`.
 
 
 
