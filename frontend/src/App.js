@@ -2,14 +2,15 @@ import React from 'react';
 import Headers from './components/Headers';
 import Article from './components/Article';
 import Footer from './components/Footer';
+import { Container } from 'reactstrap';
 
 function App() {
   return (
-    <div>
+    <Container fluid className="pt-4">
       <Headers />
       <Article />
       <Footer />
-    </div>
+    </Container>
     
   );
 }

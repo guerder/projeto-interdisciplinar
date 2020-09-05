@@ -7,6 +7,8 @@ import {
     Nav
   } from 'reactstrap';
 
+  import './styles.css';
+
   import logo from '../../assets/logo.png'
 
   const Headers = (props) => {
@@ -16,15 +18,15 @@ import {
   
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar fixed="top" expand="md" className="bg-dark">
         <NavbarBrand href="/">
-          <img src={logo} alt="Netflix" width="30%"/>
-        </NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-            </Nav>
-          </Collapse>
+              <img src={logo} alt="Netflix" width="30%"/>
+            </NavbarBrand>
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar>
+              </Nav>
+            </Collapse>
         </Navbar>
       </div>
     );
