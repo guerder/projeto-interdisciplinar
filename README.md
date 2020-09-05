@@ -36,6 +36,7 @@ Execute o comando `yarn`.
 
 Crie o arquivo `.env` na raíz do projeto com o conteúdo abaixo com as devidas modificações:
 > APP_URL=<cole_aqui_a_url>
+
 > MONGO_URL=<cole_aqui_a_url>
 
 Execute o comando `yarn start` e deixe o prompt aberto para manter o servidor ativo.
