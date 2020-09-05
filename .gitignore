@@ -1,7 +1,3 @@
-<<<<<<< HEAD
 node_modules
 .env
 *.lock
-=======
-node_modules
->>>>>>> quality
